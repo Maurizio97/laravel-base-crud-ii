@@ -16,4 +16,5 @@ Route::get('/film/delete/{id}', 'HomeController@delete') -> name('delete');
 
 //---------------------------------------------------------------------------------------------------------------------//
 
-Route::get('/user', 'UserController@userHome') -> name('userHome');
+Route::get('/users', 'UserController@userHome') -> name('userHome');
+Route::get('/user/show/{id}', 'UserController@userShow') -> name('userShow');

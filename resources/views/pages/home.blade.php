@@ -23,13 +23,13 @@
             @foreach ($users as $user)
                 <li>
                     <span>
-                        <a href="">
+                        <a href="{{ route('userShow', $user -> id) }}">
                             Utente n.{{ $user -> id }}: <br>
                         </a>
                     </span>
                     <span>- Nome:</span> <span class="val">{{ $user -> name }}</span><br>
                     <span>- Cognome:</span> <span class="val">{{ $user -> lastname }}</span><br>
-                    <span>- User Name:</span> <span class="val">{{ $user -> user_name }}</span><br>
+                    <span>- User Name:</span> <span class="val">{{ $user -> username }}</span><br>
                 </li>
             @endforeach
         </ul>
