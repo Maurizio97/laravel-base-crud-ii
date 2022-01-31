@@ -13,3 +13,7 @@ Route::get('/film/edit/{id}', 'HomeController@edit') -> name('edit');
 Route::post('/film/update/{id}', 'HomeController@update') -> name('update');
 
 Route::get('/film/delete/{id}', 'HomeController@delete') -> name('delete');
+
+//---------------------------------------------------------------------------------------------------------------------//
+
+Route::get('/user', 'UserController@userHome') -> name('userHome');
