@@ -1,10 +1,24 @@
 body {
-  background-color: blueviolet;
+  background-color: #006600;
 }
 
 a {
-  text-decoration: none;
   color: white;
+  font-size: 28px;
+}
+
+span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.val {
   font-size: 18px;
+  color: grey;
+}
+
+li {
+  border: black 1px solid;
+  margin: 7px 0;
 }
 
