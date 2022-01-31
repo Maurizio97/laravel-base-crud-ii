@@ -3,7 +3,7 @@
 
     <nav>
         <div>
-            <a href="">
+            <a href="{{ route('userCreate') }}">
                 <h2>
                     Subscribe
                 </h2>
